@@ -27,6 +27,7 @@ export const ContactSection = () => {
         >
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+                    {" "}
                     Get In 
                     <span className="text-primary"> 
                         {" "}
@@ -106,7 +107,7 @@ export const ContactSection = () => {
                         </div>
                     </div>
 
-                    <div 
+                    {/* <div 
                         className="bg-card p-8 rounded-lg shadow-xs"
                         onSubmit={handleSubmit}
                     >
@@ -177,7 +178,7 @@ export const ContactSection = () => {
                                 <Send size={16} />
                             </button>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
